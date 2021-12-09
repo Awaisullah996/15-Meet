@@ -1,0 +1,458 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 770px;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 10px;
+    left: 50px;
+}.nav-bar{
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}.nav-bar ul{
+    list-style: none;
+}
+.nav-bar ul li{
+    float: left;
+    padding:5px 25px;
+}
+.nav-bar ul li:hover{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+}
+.back-img{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    background-image:url(../img/content-1-img.jpg) ;
+    
+}
+
+.back-imgR
+{
+    background-image:linear-gradient(red,green);
+    
+}
+.main-img{
+    position: absolute;
+    top: 8.6%;
+    left: 47%;
+    background: fixed ;
+}
+.hometext{
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    left: 10%;
+    top: 20%;    
+}
+.main{
+    position: absolute;
+    color: white;
+    top: 25%;
+}
+.main1{
+    position: absolute;
+    top: 40%;
+    font-size: 400%;
+    color: white;
+}
+.main2{
+    position: absolute;
+    color: white;
+    top: 60%;
+}.start{
+    position: absolute;
+    top: 90%;
+    border: none;
+    color: white;
+    background-color: rgb(114, 167, 9);
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 16px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* .trusted{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}.rate{
+    position: absolute;
+    width: 10%;
+    height: 50%;  
+    left: 70%;
+    top: 30%;
+}.rate h1{
+    font-size: 400%;
+    margin-left: 30px;
+}
+.rat{
+    margin-left: 20px;
+}.at{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.k15{
+    position: absolute;
+    width: 20%;
+    height: 50%;  
+    left: 50%;
+    top: 30%;
+}
+.k15 h1{
+    font-size: 400%;
+    margin-left: 30px;
+}
+.k15 p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.tur{
+    position: absolute;  
+    left: 10%;
+    top: 40%;
+    font-size: 200%;
+}
+.Easy-to-control{
+    position: relative;
+    width: 100%;
+    height: 770px;
+}.to{
+    position: absolute;
+    width: 80%;
+    top:5%;
+    left: 10%;
+    font-size: 1px;
+    color: gray;
+}
+.easy{
+    position: absolute;
+    width: 40%;
+    height: 75%;
+    top: 20%;
+    left: 50%;
+}.easy1{
+    position: absolute;
+    font-size: 200%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.easy p{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+.Project{
+    position: relative;
+    left: 10%;
+    top: 230px;   
+}.por2{
+    position: absolute;
+    top: 10px;   
+}.Unlimit{
+    position: relative;
+    left: 10%;
+    top: 380px;
+}
+.un1{
+    position: relative;
+    top: 370px;
+}
+.con{
+    position: absolute;
+    width: 25%;
+    height: 550px;
+    top: 20%;
+    left: 15%;
+}.Meetings-from-anywhere{
+    position: relative;
+    width: 100%;
+    height: 770px;
+}.box1{
+    position: absolute;
+    width: 30%;
+    height: 65%;
+    top: 20%;
+    left: 10%;
+}
+.meetings{
+    position: absolute;
+    font-size: 220%;
+    margin: 10px 50px;
+}
+.meet{
+    position: absolute;
+    margin: 60px 50px;
+}
+.trol{
+    position: absolute;
+    margin: 160px 50px;
+}
+.tro{
+    position: absolute;
+    margin: 200px 50px;
+}
+.power{
+    position: absolute;
+    margin: 310px 50px;
+}
+.pow{
+    position: absolute;
+    margin: 350px 50px;
+}.img2{
+    position: absolute;
+    width: 20%;
+    height: 450px;
+    top: 25%;
+    left: 55%;
+}
+.imgg2{
+    position: absolute;
+    width: 10%;
+    height: 150px;
+    top: 67%;
+    left: 53%;
+}
+.Manage-team{
+    position: relative;
+    width: 100%;
+    height: 770px;
+}
+.box2{
+    position: absolute;
+    width: 30%;
+    height: 400px;
+    top: 20%;
+    left: 55%;
+}
+.manag{
+    position: absolute;
+    margin: 20px 50px;
+    font-size: 40px;
+}
+.share{
+    position: absolute;
+    margin: 200px 50px;
+}
+.star{
+    position: absolute;
+    margin: 350px 50px;
+    color: blue;
+}
+.cont3{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    top: 20%;
+    left: 15%;
+}
+.fill{
+    position: absolute;
+    width: 10%;
+    top: 23%;
+    left: 28%;
+}
+.program{
+    position: relative;
+    width: 100%;
+    height: 770px;
+    background-color: rgb(211, 243, 232);
+}
+.box3{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+}
+.gr{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 30px;
+}
+.am{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    text-align: center;
+}
+.basic{
+    position: absolute;
+    width: 20%;
+    height: 550px;
+    top: 25%;
+    left: 15%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.bas{
+    position: absolute;
+    top:30px;
+    padding: 3px 8px;
+    background-color: silver;
+    color: blue;
+    border-radius: 10px;
+    left: 130px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.free{
+    position: absolute;
+    top:80px;
+    left: 120px;
+    font-size: 40px;
+}
+.far{
+    position: absolute;
+    top:160px;
+    left: 100px;
+}
+.info{
+    position: absolute;
+    top: 190px;
+}
+.info ul{
+    list-style: none;
+    margin-left: 80px;
+}
+.info ul li{
+    padding-top:25px;
+}
+
+.sta{
+    position: absolute;
+    bottom: 100px;
+    left: 75px;
+    padding: 8px 15px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.card{
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+}.basic2{
+    position: absolute;
+    width: 20%;
+    height: 550px;
+    top: 25%;
+    left: 40%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+.basic3{
+    position: absolute;
+    width: 20%;
+    height: 550px;
+    top: 25%;
+    left: 65%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}.abc{
+    bottom: 50px;
+}
+.foot{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(23, 23, 39);
+}
+.sharde{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    top: 150px;
+    left: 50px;
+    text-align: center;
+}
+.sh{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    color: white;
+}
+.sha{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    word-spacing: 3px;
+    color: white;
+}
+.fab{
+    position: absolute;
+    top: 200px;
+
+}.fa-facebook-square{
+    position: absolute;
+    font-size: 30px;
+    left: 70px;
+}
+.fa-instagram{
+    position: absolute;
+    left: 120px;
+    font-size: 30px;
+}
+.fa-twitter-square{
+    position: absolute;
+    left: 170px;
+    font-size: 30px;
+}
+.fa-google-plus-square{
+    position: absolute;
+    left: 230px;
+    font-size: 30px;
+}
+.fa-linkedin-in{
+    position: absolute;
+    left: 280px;
+    font-size: 30px;
+}.fab{
+    color: white;
+}
+.shard{
+    position: relative;
+    width: 150px;
+    height: 300px;
+    color: white;
+    top: -120px;
+    left: 35%;
+    text-align: center;
+}
+.shard ul{
+    list-style: none;
+}
+.shard ul li{
+    padding-top: 30px;
+}
+.ab{
+    position: relative;
+    left: 50%;
+    top: -420px;
+}
+.abd{
+    position: relative;
+    left: 64%;
+    top: -720px;
+}
+.abe{
+    position: relative;
+    left: 78%;
+    top: -1020px;
+} */

@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    word-spacing: 3px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../resourses/img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 100%, 50% 85%, 0 100%, 0 0);
+
+
+    .header-logo{
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 50px;  
+    }
+    .header-nav-bar{
+        margin-top: -50px;
+        margin-left: 62rem;
+        
+    }& ul{
+        list-style: none;
+    }
+    & li{
+        float: left;
+        padding:5px 20px;
+        color: white;
+        border-bottom:2px solid transparent;
+
+    }
+    li:hover{
+        border-bottom: 2px solid white;
+        transition: all 0.5s ease-in-out;
+        // border-radius: 15px;
+    }
+    
+
+    
+    .header-main-img{
+        // margin-top: 0%;
+        margin:-23% 47%;
+        background: fixed ;
+    }
+  
+    .header-hometext{
+        
+        
+        &-main{
+            color:white;
+            font-size: 20px;
+            margin: 7% 10%;
+            animation: moveLeft 2s;
+
+            
+        }
+        &-main1{
+            
+            margin:-2em 10rem;
+            font-size: 250%;
+            color: white;
+            animation: moveLeft 2s;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+        &-main2{
+            color: white;
+            margin:6rem 10rem;
+            animation: moveLeft 2s;
+            font: 1.3em sans-serif;
+        }
+        &-start{
+            margin: 1rem 10rem;
+            border: none;
+            color: rgb(99, 120, 240);
+            background-color: rgb(249, 250, 248);
+            border-radius: 10px;
+            padding: 8px 20px;
+            font-size: 16px;
+            font-weight: 900;
+            animation: moveLevel infinite 1s ease-in-out infinite alternate;
+            &:hover{
+                animation: moveStart 2s;
+            }
+            
+        }
+    }
+
+}
+@keyframes moveLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    50%{
+        opacity: .5;
+        transform: translateX(0rem);
+    }
+    80%{
+        opacity: 1;
+        transform: translateX(2rem);
+    }
+    100%{
+        transform: translateX(0rem);
+    }
+
+}
+@keyframes moveStart {
+    0%{
+        transform: translatey(1rem);
+        
+    }
+    100%{
+        transform: translateX(0rem);
+        // box-shadow: transparent;
+    }
+
+}
+@keyframes moveLevel {
+    0%{
+        color: blue;
+    }
+    100%{
+        color: red;
+    }
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

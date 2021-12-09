@@ -1,0 +1,319 @@
+@media (max-width:768px){
+    .nav-bar{
+        position: absolute;
+        top: 20px;
+        left: 300px;
+    }
+    .back-img{
+    width: 100%;
+    
+}
+.nav-bar ul li{
+    float: left;
+    padding:5px 10px;
+}
+.main-img{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    margin: 16px 90px;    
+}
+.hometext{
+    margin:-50px 20px;
+    height: 400px;   
+}
+.main{
+    margin: -80px 0;
+}
+.main1{
+    margin: -80px 0;
+    font-size: 25px;
+}
+.main2{
+    margin: -130px 0;
+}.start{
+    margin: -150px 0;
+    padding: 5px 10px;
+    font-size: 10px;;
+}.trusted{
+    position: relative;
+    width: 480px;
+    height: 300px;
+}.rate{
+    margin: 80px -30px;
+}
+
+.k15{
+    position: absolute;
+    width: 200px;
+    margin: 80px -200px;
+}
+
+.tur{
+    position: absolute;  
+    margin:-150px 10px;
+    font-size: 200%;
+}  
+.Easy-to-control{
+    position: relative;
+    width: 100%;
+    height: 1170px;
+}
+.easy{
+    width: 400px;
+    height: 550px;
+    
+    margin: 600px -200px;
+}   
+
+.con{
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    margin: 0 -30px;
+}
+.Meetings-from-anywhere{
+    position: relative;
+    width: 100%;
+    height: 770px;
+}.box1{
+    width: 440px;
+    margin: 500px 0;
+}
+.img2{
+    position: absolute;
+    width: 400px;
+    margin: 0 -230px;
+}
+.meetings{
+    position: absolute;
+    font-size: 30px;
+}
+.imgg2{
+    margin: 0 -350px;
+}
+.img2{
+    margin: 0 -350px;
+}.cont3{
+    margin-top: 130px;
+}
+.fill{
+    margin-top: 170px;
+}
+.manag{
+    font-size: 30px;
+}
+.share{
+    margin-top: 160px;
+}
+.star{
+    margin-top: 290px;
+}
+.box2{
+    width: 50%;
+    height: 400px;
+    margin-top: 80px;
+}
+.program{
+
+    width: 100%;
+    height: 1550px;
+    
+}.basic{
+    width: 300px;
+    margin-left: -50px;
+}
+.basic2{
+    width: 300px;
+    margin-left: 100px;
+}.basic3{
+    width: 300px;
+    margin-top: 580px;
+    margin-left: -270px;
+}.sharde{
+    margin-left: -110px;
+}.abe{
+    margin-left: 30px;
+}
+
+
+
+
+}
+
+@media (max-width:480px){
+    .nav-bar{
+        position: absolute;
+        top: 10px;
+        left: 200px;
+    }
+    .back-img{
+    width: 480px;
+    height: 600px;
+    margin: 0 -40px;
+    
+}
+.nav-bar ul li{
+    float: left;
+    padding:2px 5px;
+}
+.main-img{
+    position: absolute;
+    
+    margin: 280px -10px;    
+}
+.hometext{
+    margin:-50px 20px;
+    height: 400px;
+    width: 440px;   
+}
+.main{
+    margin: -80px 0;
+    
+}
+.main1{
+    margin: -80px 0;
+}
+.main2{
+    margin: -130px 0;
+
+}.start{
+    margin: -150px 0;
+    padding: 5px 10px;
+    font-size: 10px;;
+}.trusted{
+    position: relative;
+    width: 480px;
+    height: 300px;
+}.rate{
+    margin: 80px -30px;
+}
+
+.k15{
+    position: absolute;
+    width: 200px;
+    margin: 80px -200px;
+}
+
+.tur{
+    position: absolute;  
+    margin:-150px 10px;
+    font-size: 200%;
+}  
+.Easy-to-control{
+    position: relative;
+    width: 100%;
+    height: 1170px;
+}
+.easy{
+    width: 400px;
+    height: 550px;
+    
+    margin: 600px -200px;
+}   
+
+.con{
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    margin: 0 -30px;
+}
+.Meetings-from-anywhere{
+    position: relative;
+    width: 100%;
+    height: 670px;
+}.box1{
+    width: 440px;
+    margin: 500px 0;
+}
+.img2{
+    position: absolute;
+    width: 400px;
+    margin: 0 -230px;
+}
+.meetings{
+    position: absolute;
+    font-size: 30px;
+}
+.cont3{
+    width: 440px;
+    margin-left: -50px;
+}
+.fill{
+    width: 150px;
+    margin: 150px 50px;
+}
+.Manage-team{
+    height: 1000px;
+}
+
+.manag{
+    font-size: 30px;
+}
+.share{
+    margin-top: 160px;
+}
+.star{
+    margin-top: 290px;
+}
+.box2{
+    width: 440px;
+    height: 400px;
+    margin: 500px -200px;
+}.program{
+
+    width: 100%;
+    margin-top: 100px;
+    height: 2000px;
+    
+}.basic{
+    width: 300px;
+    margin: -250px 10px;
+}
+.basic2{
+    width: 300px;
+    margin:330px -110px;
+}.basic3{
+    width: 300px;
+    margin-top: 900px;
+    margin-left: -230px;
+}
+.gr{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 30px;
+}
+.am{
+    position: absolute;
+    top: 100px;
+    left: 50px
+}.foot{
+    height: 1000px;
+}.sharde{
+    width: 400px;
+    margin: -100px 0px;
+}
+.shard{
+    margin: 380px -180px;
+    font-size: 12px;
+}
+.ab{
+    position: relative;
+    margin-left: -34%;
+    margin-top: -380px;
+}
+.abd{
+    position: relative;
+    margin-left: -25%;
+    margin-top: -380px;
+}
+.abe{
+    position: relative;
+    margin-left: -10%;
+    margin-top: -380px;
+}
+
+
+
+}
